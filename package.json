@@ -1,13 +1,13 @@
 {
-  "name": "bichos-borussia",
+  "name": "acaruso-react-init",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "webpack serve --open --config webpack.dev.js",
+    "start": "webpack serve --open --mode=development --config webpack.dev.js ",
     "prebuild": "rimraf dist",
-    "build": "webpack --config webpack.prod.js"
+    "build": "webpack --mode=production --config webpack.prod.js"
   },
   "author": "",
   "license": "ISC",
